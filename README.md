@@ -10,15 +10,14 @@ Horizon is the go-to hub for Commune AI—bringing the buzz together, to the com
 
 #### Clone Repository
 
-[https://github.com/loshanparajuli/twitter-GLOBAL]
+[https://github.com/loshanparajuli/horizon-twitterBOT
 
 ```shell
-git clone https://github.com/loshanparajuli/twitter-GLOBAL
+git clone https://github.com/loshanparajuli/horizon-twitterBOT
 ```
 
 #### Env configuration
 
-https://github.com/horizon/-subnet/tree/main#env-configuration
 
 Navigate to miner directory and copy the `.env.miner.example` file to `.env.miner.mainnet`.
 
@@ -63,7 +62,6 @@ DATABASE_URL_VALIDATOR=postgresql+asyncpg://postgres:changeit456$@localhost:5420
 
 #### Miner wallet creation
 
-[](https://github.com/moonsht/moonshoot-subnet/tree/main#miner-wallet-creation)
 
 ```shell
 comx key create miner1
@@ -74,7 +72,6 @@ comx module register miner moonshot::{miner name} 22 --port 9951
 
 ### Running the miner and monitoring
 
-[](https://github.com/moonsht/moonshoot-subnet/tree/main#running-the-miner-and-monitoring)
 
 Navigate to `ops` directory, create `.env` file and copy the content from `.env.example` file. Then run the following commands:
 
@@ -95,7 +92,6 @@ pm2 save
 
 #### Clone Repository
 
-[](https://github.com/horizon/horizon-subnet/tree/main#clone-repository-1)
 
 ```shell
 git clone https://github.com/moonsht/moonshoot-subnet.git ~/validator
@@ -103,7 +99,6 @@ git clone https://github.com/moonsht/moonshoot-subnet.git ~/validator
 
 #### Env configuration
 
-[](https://github.com/horizon/horizon-subnet/tree/main#env-configuration-1)
 
 Navigate to validator directory and copy the `.env.validator.example` file to `.env.validator.mainnet`.
 
@@ -141,7 +136,7 @@ DATABASE_URL_VALIDATOR=postgresql+asyncpg://postgres:changeit456$@localhost:5420
 
 #### Validator wallet creation
 
-[](https://github.com/horizon/horizon-subnet/tree/main#validator-wallet-creation)
+
 
 ```shell
 comx key create validator
@@ -153,7 +148,6 @@ comx module register validator validator 20 --port 9900
 
 ### Running the validator and monitoring
 
-[](https://github.com/horizon/horizon-subnet/tree/main#running-the-validator-and-monitoring)
 
 Start required infrastructure by navigating to ops directory and running the following commands:
 
@@ -180,8 +174,6 @@ pm2 save
 ```
 
 ### Running the validator dashboard
-
-[](https://github.com/horizon/horizon-subnet/tree/main#running-the-validator-dashboard)
 
 ```shell
 cd ~/validator
